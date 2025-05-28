@@ -11,5 +11,5 @@ steps:
 - script: mvn clean install
   displayName: 'Building the Maven application'
 
-- script: mvn exec:java -Dexec.mainClass="com.example.Main"
+- script: mvn exec:java -Dexec.mainClass="com.example.App"
   displayName: 'Running the Maven application'
